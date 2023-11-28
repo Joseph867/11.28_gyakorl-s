@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Regisztrációs oldal</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Regisztráció</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Felhasználók listája</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <form class="container" id="regsztracioslap">
+        <div>
+            <label for="felhasznalonev" class="form-label">Felhasználó név</label>
+            <input type="text" id="felhasznalonev" class="form-control" placeholder="Mészáros Lölőke">
+        </div>
+        <div>
+            <label for="E-mail" class="form-label">E-mail cím</label>
+            <input type="text" id="E-mail" class="form-control" placeholder="Pl.: pityuakiraly69@gmail.com">
+        </div><br>
+        <div class="form-floating">
+            <input type="password" id="jelszo" class="form-control" placeholder="password">
+            <label for="jelszo" class="form-label">password</label>
+        </div><br>
+        <div class="form-floating">
+            <input type="password" id="jelszo" class="form-control" placeholder="password">
+            <label for="jelszo" class="form-label">password again</label>
+        </div>
+        <div>
+            <input type="checkbox" id="terms">
+            <label for="terms" class="form-label">Elfogadom a felh. feltételeket</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="switchcheckbox">
+            <label class="form-check-label" for="switchcheckbox">Beleegyezik a marketing levelek küldésébe</label>
+        </div>
+        <button class="btn btn-primary">Regisztráció</button>
+        <button class="reset btn btn-warning">Reset</button>
+    </form>
+
+    <div class="container" >
+        <ul class="list-group" id="lista">
+            <li class="list-group-item bg-danger">Sanyi</li>
+            <li class="list-group-item bg-danger">Béla</li>
+            <li class="list-group-item bg-info">Andor</li>
+            <li class="list-group-item">Pál</li>
+            <li class="list-group-item">Ödön </li>
+            <li class="list-group-item">Elek</li>
+            <li class="list-group-item bg-info">József</li>
+            <li class="list-group-item">Viktor</li>
+            <li class="list-group-item bg-info">Simon</li>
+            <li class="list-group-item active">Péter</li>
+        </ul>
+    </div>
+
+
+    
+</body>
+</html>
